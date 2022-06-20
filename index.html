@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
     <head>
+        <!-- Meta -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,17 +13,22 @@
         
         <!-- Style -->
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" media="screen and (min-width: 480px)" href="./css/style-mp.css">
+        <link rel="stylesheet" media="screen and (max-width: 480px)" href="./css/style-mobile.css">
 
-        <title>Home</title>
+        <!-- Title -->
+        <title>Nevim</title>
     </head>
+
     <body>
         <!-- Nav -->
         <div id="nav">
-            <div ><a class="logo" href="index.html">Žlutý Dežo</a></div>
+            <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
             <div class="nav_links">
                 <div class="nav_link"><a href="about-me.html">About me</a></div>
                 <div class="nav_link"><a href="projects.html">Projects</a></div>
-                <div class="nav_link contact-me"><a href="contact.html">Contact me!</a></div>
+                <div class="nav_link"><a href="gallery.html">Gallery</a></div>
+                <div class="nav_link contact-me"><a href="contact.html" style="color: #F4BA25;">Contact me!</a></div>
                 <div id="nav_hamburger">
                     <span></span>
                     <span></span>
@@ -31,23 +37,80 @@
             </div>
             <div class="nav-modal">
                 <div class="nav-modal-content">
-                    <li><a>Produkt</a></li>
-                    <li><a>Shůzka s koučem</a></li>
-                    <li><a>O nás</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-me.html">About me</a></li>
+                    <li><a>Projects</a></li>
+                    <li><a>Gallery</a></li>
+                    <li><a class="contact-me" href="contact.html" style="color: #F4BA25;">Contact me!</a></li>
+                    <div class="nav-social-media">
+                        <img src="img/icons/fb.png" alt="facebook">
+                        <img src="img/icons/ig.png" alt="instagram">
+                        <img src="img/icons/git.png" alt="guthub">
+                        <img src="img/icons/st.png" alt="steam">
+                    </div>
+                    <li class="copyright">© 2022 Filip Křivánek</li>
                 </div>
             </div>
         </div>
 
         <!-- Main -->
-        <div class="mp_container">
-            <img class="blob" src="./img/blob.svg" alt="blob">
-            <div class="mp_container_content">
-                <div class="hello">Hey!</div>
-                <div class="welcome">Welcome to my<div class="website">website</div>!</div>
-                <div class="wip">The whole site is still in WIP</div>
+        <main>
+            <section>
+                <div class="flex flex-c welcome-box">
+                    <div class="welcome">Welcome to my site!</div>
+                    <div class="welcome-text">What you can find here:</div>
+                </div>
+
+                <div class="flex mp-card-container">
+                    <div class="flex-c mp-card">
+                        <div class="flex mp-card-hd">About me</div>
+                        <div class="flex mp-card-small-hd">Things that doesn't interest you</div>
+                        <img class="flex mp-card-icon" src="img/icons-big/about-me.png" alt="">
+                        <div class="flex mp-card-button">Více</div>
+                    </div>
+
+                    <div class="flex-c mp-card">
+                        <div class="flex mp-card-hd">Projects</div>
+                        <div class="flex mp-card-small-hd">All my projects</div>
+                        <img class="flex mp-card-icon" src="img/icons-big/projects.png" alt="">
+                        <div class="flex mp-card-button">Více</div>
+                    </div>
+
+                    <div class="flex-c mp-card">
+                        <div class="flex mp-card-hd">Gallery</div>
+                        <div class="flex mp-card-small-hd">Take a look at my photos</div>
+                        <img class="flex mp-card-icon" src="img/icons-big/gallery.png" alt="">
+                        <div class="flex mp-card-button">Více</div>
+                    </div>
+
+                    <div class="flex-c mp-card">
+                        <div class="flex mp-card-hd">Contact me!</div>
+                        <div class="flex mp-card-small-hd">Send me a message</div>
+                        <img class="flex mp-card-icon" src="img/icons-big/contact.png" alt="">
+                        <div class="flex mp-card-button">Více</div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="flex flex-c footer-container">
+                <div class="flex flex-c footer-content">
+                    <img src="img/logo.png" alt="logo" class="flex footer-logo">
+                    <div style="margin-top: 1rem;" class="flex footer-social-media">
+                        <img src="img/icons/fb.png" alt="facebook">
+                        <img src="img/icons/ig.png" alt="instagram">
+                        <img src="img/icons/git.png" alt="guthub">
+                        <img src="img/icons/st.png" alt="steam">
+                    </div>
+                    <div class="flex footer-copyright" style="margin-top: 1rem;">© 2022 Filip Křivánek</div>
+                </div>
             </div>
-        </div>
+        </footer>
         
+        <!-- Scripts -->
         <script src="./js/nav.js"></script>
     </body>
 </html>

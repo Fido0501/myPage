@@ -1,0 +1,56 @@
+/* Home */
+.welcome-box {
+    margin-top: 8rem;
+}
+
+.welcome {
+    font-size: 2rem;
+}
+
+.welcome-text {
+    margin-top: .5rem;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.mp-card-container {
+    margin-top: 5rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 9.4vw;
+}
+
+.mp-card {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--elements-color);
+}
+
+.mp-card-hd {
+    color: var(--btn-color);
+    font-size: 1.5rem;
+}
+
+.mp-card-small-hd {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    width: 80%;
+}
+
+.mp-card-icon {
+    margin-top: auto;
+    width: 100px;
+}
+
+.mp-card-button {
+    background-color: var(--btn-color);
+    padding: .8rem 1.3rem .8rem 1.3rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    margin-top: auto;
+}

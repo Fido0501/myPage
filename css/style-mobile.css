@@ -1,0 +1,160 @@
+/* NAV */
+
+#nav .nav_link{
+    display: none;
+}
+
+#nav_hamburger {
+    display: block;
+}
+
+.nav-social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: .5rem;
+    margin-top: 4rem;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 20px;
+    font-weight: 400;
+    background-color: var(--elements-color);
+    color: var(--btn-color);
+}
+
+.copyright {
+    font-size: .8rem;
+    color: #fff;
+}
+
+/* Home - mobile */
+.welcome-box {
+    margin-top: 5rem;
+}
+
+.welcome {
+    font-size: 2rem;
+}
+
+.welcome-text {
+    margin-top: .5rem;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.mp-card-container {
+    margin-top: 2rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mp-card {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--elements-color);
+}
+
+.mp-card-hd {
+    color: var(--btn-color);
+    font-size: 1.5rem;
+}
+
+.mp-card-small-hd {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    width: 80%;
+}
+
+.mp-card-icon {
+    margin-top: auto;
+    width: 100px;
+}
+
+.mp-card-button {
+    background-color: var(--btn-color);
+    padding: .8rem 1.3rem .8rem 1.3rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    margin-top: auto;
+}
+
+/* About me - mobile */
+.aboutme-box {
+    margin-left: 2rem;
+    margin-top: 6rem;
+}
+
+.aboutme-box-start{
+    margin-left: 2rem;
+    margin-top: 6rem;
+    width: 80%;
+}
+
+.aboutme {
+    font-size: 2rem;
+    text-align: left;
+    color: var(--btn-color);
+}
+
+.aboutme-text {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.aboutme-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.skill-name {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill-levels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: .5rem;
+    margin-top: .5rem;
+}
+
+.skill-yellow {
+    background-color: var(--btn-color);
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.skill-black {
+    background-color: #000;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+}

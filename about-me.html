@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
     <head>
+        <!-- Meta -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,28 +13,220 @@
         
         <!-- Style -->
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" media="screen and (min-width: 480px)" href="./css/style-a.css">
+        <link rel="stylesheet" media="screen and (max-width: 480px)" href="./css/style-mobile.css">
 
-        <title>About me</title>
+        <!-- Title -->
+        <title>Nevim</title>
     </head>
+
     <body>
         <!-- Nav -->
         <div id="nav">
-            <div ><a class="logo" href="index.html">Žlutý Dežo</a></div>
+            <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
             <div class="nav_links">
-                <div class="nav_link about-me"><a href="about-me.html">About me</a></div>
+                <div class="nav_link"><a href="about-me.html">About me</a></div>
                 <div class="nav_link"><a href="projects.html">Projects</a></div>
-                <div class="nav_link contact-me"><a href="contact.html">Contact me!</a></div>
+                <div class="nav_link"><a href="gallery.html">Gallery</a></div>
+                <div class="nav_link contact-me"><a href="contact.html" style="color: #F4BA25;">Contact me!</a></div>
+                <div id="nav_hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="nav-modal">
+                <div class="nav-modal-content">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-me.html">About me</a></li>
+                    <li><a>Projects</a></li>
+                    <li><a>Gallery</a></li>
+                    <li><a class="contact-me" href="contact.html" style="color: #F4BA25;">Contact me!</a></li>
+                    <div class="nav-social-media">
+                        <img src="img/icons/fb.png" alt="facebook">
+                        <img src="img/icons/ig.png" alt="instagram">
+                        <img src="img/icons/git.png" alt="guthub">
+                        <img src="img/icons/st.png" alt="steam">
+                    </div>
+                    <li class="copyright">© 2022 Filip Křivánek</li>
+                </div>
             </div>
         </div>
 
         <!-- Main -->
-        <div class="a_container">
-            <div class="a_container_content">
-                <div class="a-hello">Hello!</div>
-                <div class="welcome">Welcome to my<div class="website">website</div>!</div>
-                <div class="info">I am a college student from Brno where I study IT. I'm interested in webdesign and coding and I also like working in photoshop and other graphic editors. I'm fan of computer games and technology!</div>
+        <main>
+            <section>
+                <div class="flex-c aboutme-box-start">
+                    <div class="aboutme">Hello!</div>
+                    <p class="aboutme-text">I am a student from Brno where I study IT. I'm interested in webdesign and coding and I also like working in photoshop and other graphic editors. I'm fan of computer games and technology! I love taking and editingphotos too!</p>
+                </div>
+                <div class="aboutme-img">
+                    <img src="img/icons-big/code.png" alt="steam">
+                </div>
+
+                <!-- Programming and coding -->
+                <div class="flex-c aboutme-box" style="margin-top: 2rem;">
+                    <div class="aboutme">My Skills</div>
+                    <div class="aboutme-text">Programming & coding</div>
+                </div>
+
+                <div class="skill-name">JavaScript</div>
+                <div class="skill">
+                    <div class="skill-levels">
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-black"></div>
+                        <div class="skill-black"></div>
+                    </div>
+                </div>
+
+                <div class="skill-name">PHP</div>
+                <div class="skill">
+                    <div class="skill-levels">
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-black"></div>
+                        <div class="skill-black"></div>
+                    </div>
+                </div>
+
+                <div class="skill-name">Python</div>
+                <div class="skill">
+                    <div class="skill-levels">
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-black"></div>
+                        <div class="skill-black"></div>
+                    </div>
+                </div>
+
+                <div class="skill-name">HTML</div>
+                <div class="skill">
+                    <div class="skill-levels">
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                    </div>
+                </div>
+
+                <div class="skill-name">CSS</div>
+                <div class="skill">
+                    <div class="skill-levels">
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                    </div>
+                </div>
+
+                <div class="skill-name">MySQL</div>
+                <div class="skill">
+                    <div class="skill-levels">
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-black"></div>
+                        <div class="skill-black"></div>
+                    </div>
+                </div>
+
+                <!-- Graphic Editors -->
+                <div class="flex-c aboutme-box" style="margin-top: 2rem;">
+                    <div class="aboutme-text">Graphic Editors</div>
+                </div>
+
+                <div class="skill-name">Photoshop</div>
+                <div class="skill">
+                    <div class="skill-levels">
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-black"></div>
+                    </div>
+                </div>
+
+                <div class="skill-name">Illustrator</div>
+                <div class="skill">
+                    <div class="skill-levels">
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-black"></div>
+                        <div class="skill-black"></div>
+                    </div>
+                </div>
+
+                <div class="skill-name">After Effects</div>
+                <div class="skill">
+                    <div class="skill-levels">
+                        <div class="skill-yellow"></div>
+                        <div class="skill-black"></div>
+                        <div class="skill-black"></div>
+                        <div class="skill-black"></div>
+                        <div class="skill-black"></div>
+                    </div>
+                </div>
+
+                <div class="skill-name">InDesign</div>
+                <div class="skill">
+                    <div class="skill-levels">
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-black"></div>
+                        <div class="skill-black"></div>
+                        <div class="skill-black"></div>
+                    </div>
+                </div>
+
+                <div class="skill-name">Blender</div>
+                <div class="skill">
+                    <div class="skill-levels">
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-black"></div>
+                        <div class="skill-black"></div>
+                        <div class="skill-black"></div>
+                    </div>
+                </div>
+
+                <div class="skill-name">Inventor</div>
+                <div class="skill">
+                    <div class="skill-levels">
+                        <div class="skill-yellow"></div>
+                        <div class="skill-yellow"></div>
+                        <div class="skill-black"></div>
+                        <div class="skill-black"></div>
+                        <div class="skill-black"></div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="flex flex-c footer-container">
+                <div class="flex flex-c footer-content">
+                    <img src="img/logo.png" alt="logo" class="flex footer-logo">
+                    <div style="margin-top: 1rem;" class="flex footer-social-media">
+                        <img src="img/icons/fb.png" alt="facebook">
+                        <img src="img/icons/ig.png" alt="instagram">
+                        <img src="img/icons/git.png" alt="guthub">
+                        <img src="img/icons/st.png" alt="steam">
+                    </div>
+                    <div class="flex footer-copyright" style="margin-top: 1rem;">© 2022 Filip Křivánek</div>
+                </div>
             </div>
-            <img class="blob" src="./img/blob.svg" alt="blob">
-        </div>
+        </footer>
+        
+        <!-- Scripts -->
+        <script src="./js/nav.js"></script>
     </body>
 </html>
