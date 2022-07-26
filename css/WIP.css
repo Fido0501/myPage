@@ -1,0 +1,58 @@
+/* Made for WIP sites */
+
+#nav, footer {
+    display: none;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10rem;
+    margin-top: 7rem;
+}
+
+.f-hd {
+    font-size: 4rem;
+    color: var(--btn-color);
+}
+
+.f-text {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.link {
+    text-decoration: underline;
+    margin-top: 3rem;
+}
+
+img {
+    width: 25vw;
+    transform: scalex(-1);
+}
+
+@media screen and (max-width: 480px){
+    .f-hd {
+        font-size: 3rem;
+        color: var(--btn-color);
+    }
+    
+    .f-text {
+        font-size: 1rem;
+        color: #fff;
+    }
+    
+    .link {
+        text-decoration: underline;
+        margin-top: 3rem;
+    }
+    
+    img {
+        width: 200px;
+        transform: scalex(-1);
+        margin-top: -10rem;
+    }
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
     <head>
+        <!-- Meta -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +13,14 @@
         
         <!-- Style -->
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/WIP.css">
+        <link rel="stylesheet" media="screen and (min-width: 480px)" href="./css/style-mp.css">
+        <link rel="stylesheet" media="screen and (max-width: 480px)" href="./css/style-mobile.css">
 
-        <title>Home</title>
+        <!-- Title -->
+        <title>Nevim</title>
     </head>
+
     <body>
         <!-- Nav -->
         <div id="nav">
@@ -49,28 +55,37 @@
         </div>
 
         <!-- Main -->
-        <div class="p_container">
-            <div class="p_container_content">
-                <div class="p_info">Here you can download my <div class="yellow">projects</div>!</div>
-                <div class="omsi2">OMSI 2 - repaints
-                    <div class="omsi2_cards">
-                        <div class="omsi2_card">
-                            <img class="omsi2_card_img" src="./img/12m-2.2.1-DPMB.jpg" alt="12m-2.2.1-DPMB">
-                            <div class="company">DPMB</div>
-                            <div class="omsi2_card_hd">Crossway 12m 2-2-1</div>
-                            <div><a class="download" href="https://mega.nz/file/1uo1yIAB#jaQzvE8w-H16E4XWEICZ6IdKqYaAX-5SZ17Ex5wGu7U">Download</a></div>
-                        </div>
-                        <div class="omsi2_card">
-                            <img class="omsi2_card_img" src="./img/12m-1.2.0-IDSJMK.jpg" alt="12m-1.2.0-IDSJMK">
-                            <div class="company">IDS JMK</div>
-                            <div class="omsi2_card_hd">Crossway 12m 1-2-0</div>
-                            <div><a class="download" href="https://mega.nz/file/Mq5BwbIL#wl16aPRdIB-_tlI38iYApp1Fsazw5xZDncYlnnJ9lr4">Download</a></div>
-                        </div>
-                    </div>
+        <main>
+            <section>
+                <div class="first">
+                    <div class="f-hd">Oh no...</div>
+                    <div class="f-text">This site is still in progress...</div>
+                    <div class="link"><a style="color: lightblue;" href="./index.html">Go back to mainpage</a></div>
                 </div>
-                
+
+                <div class="second">
+                    <img src="./img/img/sadge-600.png" alt="sadge">
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="flex flex-c footer-container">
+                <div class="flex flex-c footer-content">
+                    <img src="img/logo.png" alt="logo" class="flex footer-logo">
+                    <div style="margin-top: 1rem;" class="flex footer-social-media">
+                        <img src="img/icons/fb.png" alt="facebook">
+                        <img src="img/icons/ig.png" alt="instagram">
+                        <img src="img/icons/git.png" alt="guthub">
+                        <img src="img/icons/st.png" alt="steam">
+                    </div>
+                    <div class="flex footer-copyright" style="margin-top: 1rem;">© 2022 Filip Křivánek</div>
+                </div>
             </div>
-        </div>
+        </footer>
         
+        <!-- Scripts -->
+        <script src="./js/nav.js"></script>
     </body>
 </html>

@@ -5,14 +5,26 @@
 }
 
 .aboutme-box-start{
-    margin-left: 2rem;
+    text-align: center;
     margin-top: 6rem;
-    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
 }
 
 .aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
     color: var(--btn-color);
 }
 
@@ -28,6 +40,7 @@
 }
 
 .skill-name {
+    text-align: center;
     margin-top: 2rem;
     display: flex;
     justify-content: center;
@@ -63,4 +76,19 @@
     width: 40px;
     height: 20px;
     border-radius: 10px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.pro-code, .gra-edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
